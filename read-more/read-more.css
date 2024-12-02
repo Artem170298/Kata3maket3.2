@@ -1,0 +1,16 @@
+@import url('__icon/read-more__icon.css');
+@import url('__icon-img/read-more__icon-img.css');
+@import url('__text-button/read-more__text-button.css');
+
+.read-more {
+    position: relative;
+    width: auto;
+    height: 24px;
+    margin: 16px auto 25px 16px;
+    border: none;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 auto;
+}

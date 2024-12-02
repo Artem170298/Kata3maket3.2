@@ -1,0 +1,62 @@
+@import url('block-brend/block-brend.css');
+@import url('block-brends/block-brends.css');
+@import url('swiper/swiper.css');
+@import url('header/header.css');
+
+@media screen and (min-width:319px) and (max-width:767px){
+    body {
+        font-size: 16px;
+        margin: 0;
+    }
+    .container {
+        max-width: 767px;
+        min-width: 320px;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        
+        width: 100%;
+        height: 154px;
+        background-color: #F8F8F8;
+    }
+
+    .block-brends {
+        height: 72px;
+        width: auto;
+        margin: 16px 0 16px 16px;
+        overflow: hidden;
+        display: flex;
+    }
+
+   .block-brend {
+        width: 240px;
+        height: 72px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+    }
+
+    .block-brends__list{
+        display: grid;
+        padding-left: 0;/*переопред*/
+        margin: 0;
+        white-space: nowrap;/*переопр*/
+        grid-auto-flow: column;/*переопр*/
+        overflow:hidden;
+        gap: 0 16px;
+        list-style: none;
+        width: 100%;/*переопр*/
+    
+    }
+
+    .read-more {
+        display: none !important;
+    }
+}

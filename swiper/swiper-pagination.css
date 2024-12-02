@@ -1,0 +1,8 @@
+.swiper .swiper-pagination {
+    display: flex !important;
+    justify-content: center !important;
+    width: auto;
+    height: 12px;
+    margin-left: auto !important;
+    margin-right: auto !important; 
+}

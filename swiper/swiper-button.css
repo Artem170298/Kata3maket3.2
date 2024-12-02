@@ -1,0 +1,5 @@
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 100px;
+    opacity: 0;
+}

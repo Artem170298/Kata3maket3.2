@@ -1,0 +1,10 @@
+.header__heading { /*общий*/
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #7E7E82;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}

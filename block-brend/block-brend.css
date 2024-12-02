@@ -1,0 +1,15 @@
+@import url('__ic-go/block-brend__ic-go.css');
+@import url('__logo/block-brend__logo.css');
+
+.block-brend {
+    min-width: 224px;
+    max-width: 240px;
+    background-color: #FFFFFF;
+    width: auto;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+@import url('__list/block-brends__list.css');
+
+.block-brends {
+    height: 160px;
+    width: auto;
+    
+    margin: 16px 16px 16px 16px;
+    overflow: hidden;
+}

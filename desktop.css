@@ -1,0 +1,40 @@
+@import url('block-brend/block-brend.css');
+@import url('block-brends/block-brends.css');
+@import url('block-brends/--open/block-brends--open.css');
+@import url('header/header.css');
+@import url('read-more/read-more.css');
+
+ @media screen and (min-width: 1120px) {
+    
+    body {
+        margin: 0;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 1240px;
+        min-width: 1120px;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {  
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #F8F8F8;
+    }
+
+    .block-brends__list {
+        grid-template-columns: repeat(4, 1fr);/*переопределено*/
+    }
+
+    .read-more {
+        margin: 16px auto 25px 30px;
+    }  
+ }

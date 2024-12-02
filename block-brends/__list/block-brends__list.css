@@ -1,0 +1,10 @@
+.block-brends__list {
+    display: grid;
+    padding-right: 2px;
+    margin: 0;
+    white-space: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    overflow:hidden;
+    gap:16px;
+    list-style: none;
+}
