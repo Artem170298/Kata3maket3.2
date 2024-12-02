@@ -3,7 +3,7 @@
 @import url('block-brends/--open/block-brends--open.css');
 @import url('header/header.css');
 @import url('read-more/read-more.css');
-@import url('block-brends/__list/block-brends__list.css');
+@import url('block-brends\__list\block-brends__list.css');
 
 @media screen and ( min-width:768px) and (max-width: 1119px) {
     
