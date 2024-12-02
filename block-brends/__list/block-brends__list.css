@@ -1,5 +1,5 @@
 .block-brends__list {
-    display: grid;
+    display: grid !important;
     padding-right: 2px;
     margin: 0;
     white-space: wrap;
