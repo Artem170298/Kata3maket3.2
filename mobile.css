@@ -1,7 +1,7 @@
-@import url('/block-brend/block-brend.css');
+/* @import url('/block-brend/block-brend.css');
 @import url('/block-brends/block-brends.css');
 @import url('/swiper/swiper.css');
-@import url('/header/header.css');
+@import url('/header/header.css'); */
 
 @media screen and (min-width:319px) and (max-width:767px){
     body {
@@ -59,4 +59,94 @@
     .read-more {
         display: none !important;
     }
+
+    .block-brend__ic-go {
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+    .block-brend__logo {
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .header__heading { /*общий*/
+        font-family: TT Lakes;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #7E7E82;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        border-top: 1px solid #D9FFF5;
+        background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
+       
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 16px 0 26px 16px !important;
+        z-index: 1;
+        display: block;
+    }
+
+    .swiper-wrapper {
+        width: auto !important;
+        height: 72px; 
+        display: flex;
+        margin-bottom: 15px !important;
+    }
+
+    .swiper-slide{
+        width: auto !important;
+        height: 72px;
+        display: flex !important;
+        justify-content: space-around;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        transition-property: transform;
+        border-radius: 6px;
+    }
+
+    .swiper .swiper-pagination {
+        display: flex !important;
+        justify-content: center !important;
+        width: auto;
+        height: 12px;
+        margin-left: auto !important;
+        margin-right: auto !important; 
+    }
+
+    .swiper .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        line-height: 20px;
+        font-family: 14px;
+        background-color: #B5B6BC;
+        margin-right: 12px !important;
+        margin-left: 0px !important;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 100px;
+        opacity: 0;
+    }
+
+
 }

@@ -1,9 +1,9 @@
-@import url('/block-brend/block-brend.css');
+/* @import url('/block-brend/block-brend.css');
 @import url('/block-brends/block-brends.css');
 @import url('/block-brends/--open/block-brends--open.css');
 @import url('/header/header.css');
 @import url('/read-more/read-more.css');
-@import url('/block-brends/__list/block-brends__list.css');
+@import url('/block-brends/__list/block-brends__list.css'); */
 
  @media screen and (min-width: 1120px) {
     
@@ -32,10 +32,102 @@
     }
 
     .block-brends__list {
+        display: grid !important;
+        padding-right: 2px;
+        margin: 0;
+        white-space: wrap;
         grid-template-columns: repeat(4, 1fr);/*переопределено*/
+        overflow:hidden;
+        gap:16px;
+        list-style: none;
+    }
+
+    .block-brends {
+        height: 160px;
+        width: auto;
+        margin: 16px 16px 16px 16px;
+        overflow: hidden;
+    }
+    
+
+    .block-brends--open {
+        height: auto;
     }
 
     .read-more {
+        position: relative;
+        width: auto;
+        height: 24px;
         margin: 16px auto 25px 30px;
-    }  
+        border: none;
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 auto;
+    } 
+    
+    .block-brend__ic-go {
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+    .block-brend__logo {
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .block-brend {
+        min-width: 224px;
+        max-width: 240px;
+        background-color: #FFFFFF;
+        width: auto;
+        height: 72px;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header__heading { /*общий*/
+        font-family: TT Lakes;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #7E7E82;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        border-top: 1px solid #D9FFF5;
+        background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+
+    .read-more__icon{
+        width: 24px;
+        height: 24px;
+        margin-left: -10px;
+    }
+
+    .read-more__icon-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .read-more__text-button {
+        font-weight: bold;
+        margin: 0;
+        text-align: left;
+        margin-left: 5px;
+    }
+
  }
