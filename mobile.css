@@ -1,7 +1,7 @@
-@import url('block-brend/block-brend.css');
-@import url('block-brends/block-brends.css');
-@import url('swiper/swiper.css');
-@import url('header/header.css');
+@import url('/block-brend/block-brend.css');
+@import url('/block-brends/block-brends.css');
+@import url('/swiper/swiper.css');
+@import url('/header/header.css');
 
 @media screen and (min-width:319px) and (max-width:767px){
     body {
